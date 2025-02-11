@@ -1,3 +1,6 @@
 [build]
   command = "pnpm run build"
   environment = { PYTHON_VERSION = "3.10.1" }  # Change to a valid Python version
+# netlify.toml
+[build]
+  environment = { NODE_VERSION = "18" }
