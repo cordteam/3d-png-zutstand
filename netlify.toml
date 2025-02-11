@@ -1,5 +1,5 @@
 [build]
- command = "pnpm run build"
+  command = "pnpm run build"
   environment = { 
     PYTHON_VERSION = "3.10.1",
     NODE_VERSION = "18"
