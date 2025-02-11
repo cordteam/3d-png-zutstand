@@ -1,6 +1,8 @@
 [build]
   command = "pnpm run build"
-  environment = { 
-    PYTHON_VERSION = "3.10.1",
-    NODE_VERSION = "18"
-  }
+  publish = "build" # Or your publish directory
+
+# Or for all contexts:
+[build.environment]
+  PYTHON_VERSION = "3.10.1"
+  NODE_VERSION = "18"
